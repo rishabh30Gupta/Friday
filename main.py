@@ -51,10 +51,10 @@ except Exception:  # pragma: no cover
 
 
 # Configure the Gemini client
-api_key = "AIzaSyBiU4zv7bLd2uISIkGYpxihBJUZNxAyusk"
+api_key = "Enter the API Key Here"
 if not api_key:
     raise ValueError("API key not found. Please set the GEMINI_API_KEY environment variable.")
-client = genai.Client(api_key="AIzaSyBiU4zv7bLd2uISIkGYpxihBJUZNxAyusk")
+client = genai.Client(api_key="Enter the API KEY HERE")
 
 # Initialize the recognizer
 r = sr.Recognizer()
