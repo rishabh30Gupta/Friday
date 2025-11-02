@@ -132,3 +132,6 @@ dmypy.json
 
 # JetBrains
 .idea/
+
+test_audio.py
+Friday.py
