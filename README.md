@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/rishabh30Gupta/Friday
     cd Friday
     ```
 
