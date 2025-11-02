@@ -158,7 +158,7 @@ def confirm_and_shutdown() -> None:
 
 
 def open_youtube_search(query: str) -> None:
-    url = f"https://www.youtube.com/results?search_query={re.sub(r'\s+', '+', query.strip())}"
+    url = f"https://www.youtube.com/results?search_query={re.sub(r'/s+', '+', query.strip())}"
     webbrowser.open(url)
 
 

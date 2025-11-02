@@ -1,0 +1,9 @@
+google-generativeai
+SpeechRecognition
+pyttsx3==2.71
+PyAudio
+requests
+pytube
+selenium
+pyfiglet
+colorama
